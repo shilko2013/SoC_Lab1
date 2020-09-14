@@ -609,3 +609,6 @@ mb-size lab_1_sim.elf  |tee "lab_1_sim.elf.size"
   12744	   1308	   3172	  17224	   4348	lab_1_sim.elf
 'Finished building: lab_1_sim.elf.size'
 ' '
+21:08:56 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.

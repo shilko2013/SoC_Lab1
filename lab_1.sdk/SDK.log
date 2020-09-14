@@ -11,3 +11,8 @@
 18:13:36 INFO  : Successfully done setting XSCT server connection channel  
 18:13:36 INFO  : Successfully done setting SDK workspace  
 18:13:36 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:09:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:09:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
