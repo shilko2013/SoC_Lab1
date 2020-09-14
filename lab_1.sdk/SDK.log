@@ -4,3 +4,10 @@
 11:44:10 INFO  : Successfully done setting XSCT server connection channel  
 11:44:16 INFO  : Processing command line option -hwspec C:/Users/shilk/Desktop/lab_1/lab_1.sdk/design_1_wrapper.hdf.
 11:44:16 INFO  : Successfully done setting SDK workspace  
+18:13:29 INFO  : Registering command handlers for SDK TCF services
+18:13:30 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\shilk\Desktop\lab_1\lab_1.sdk\temp_xsdb_launch_script.tcl
+18:13:33 INFO  : XSCT server has started successfully.
+18:13:36 INFO  : Processing command line option -hwspec C:/Users/shilk/Desktop/lab_1/lab_1.sdk/design_1_wrapper.hdf.
+18:13:36 INFO  : Successfully done setting XSCT server connection channel  
+18:13:36 INFO  : Successfully done setting SDK workspace  
+18:13:36 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.

@@ -88,8 +88,11 @@ int main() {
 
 	Xil_Out16(ADDR_GPIO_BASE, N_LETTER);
 	get_matrix_size(&n);
-	if (n < 5 || n > 10)
+	if (n < 5 || n > 10) {
+		if (!DEBUG_)
+			xil_printf("Matrix size should be in this bounds: [5;10]\n");
 		continue;
+	}
 	Xil_Out16(ADDR_GPIO_BASE, A_LETTER);
 	if (!DEBUG_)
 		xil_printf("Enter matrix A\n");
