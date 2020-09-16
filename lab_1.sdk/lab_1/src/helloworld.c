@@ -64,9 +64,11 @@ void print_matrix(s32 n, s32 * a) {
 		}
 	} else {
 		for (i = 0; i < n; ++i) {
+			xil_printf("[%d] = { ", i);
 					for (j = 0; j < n; ++j) {
-						xil_printf("Result matrix[%d][%d] = %d", i, j, a[i*n + j]);
+						xil_printf("%d ", a[i*n + j]);
 					}
+					xil_printf("}\n");
 				}
 	}
 }
@@ -97,19 +99,20 @@ int main() {
 		xil_printf("Enter matrix A\n");
 	get_matrix(n, matrix_a);
 
-	xil_printf("n = %d\n", n);
-
-	xil_printf("MATRIX A\n");
-
-	print_matrix(5, matrix_a);
+	xil_printf("--MATRIX A--\n");
+	print_matrix(n, matrix_a);
 
 	Xil_Out16(ADDR_GPIO_BASE, B_LETTER);
 	if (!DEBUG_)
 		xil_printf("Enter matrix B\n");
 	get_matrix(n, matrix_b);
 
+	xil_printf("--MATRIX B--\n");
+	print_matrix(n, matrix_b);
+
 	get_result_matrix(n, matrix_a, matrix_b, matrix_c);
 	Xil_Out16(ADDR_GPIO_BASE, C_LETTER);
+	xil_printf("--MATRIX C--\n");
 	print_matrix(n, matrix_c);
 
 	}
