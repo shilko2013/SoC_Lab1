@@ -60,29 +60,30 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {Common 17-41} -limit 10000000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 2
+  set_param chipscope.maxJobs 1
   create_project -in_memory -part xc7a100tcsg324-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/shilk/Desktop/lab_1/lab_1.cache/wt [current_project]
-  set_property parent.project_path C:/Users/shilk/Desktop/lab_1/lab_1.xpr [current_project]
-  set_property ip_output_repo C:/Users/shilk/Desktop/lab_1/lab_1.cache/ip [current_project]
+  set_property webtalk.parent_dir E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.cache/wt [current_project]
+  set_property parent.project_path E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.xpr [current_project]
+  set_property ip_output_repo E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
-  add_files -quiet C:/Users/shilk/Desktop/lab_1/lab_1.runs/synth_1/design_1_wrapper.dcp
+  add_files -quiet E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.runs/synth_1/design_1_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files C:/Users/shilk/Desktop/lab_1/lab_1.srcs/sources_1/bd/design_1/design_1.bd
+  add_files E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.srcs/sources_1/bd/design_1/design_1.bd
   set_param project.isImplRun false
-  add_files C:/Users/shilk/Desktop/lab_1/lab_1.sdk/lab_1/Debug/lab_1.elf
-  set_property SCOPED_TO_REF design_1 [get_files -all C:/Users/shilk/Desktop/lab_1/lab_1.sdk/lab_1/Debug/lab_1.elf]
-  set_property SCOPED_TO_CELLS microblaze_0 [get_files -all C:/Users/shilk/Desktop/lab_1/lab_1.sdk/lab_1/Debug/lab_1.elf]
-  read_xdc C:/Users/shilk/Desktop/lab_1/lab_1.srcs/constrs_1/new/constr.xdc
+  add_files E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf
+  set_property SCOPED_TO_REF design_1 [get_files -all E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf]
+  set_property SCOPED_TO_CELLS microblaze_0 [get_files -all E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf]
+  read_xdc E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.srcs/constrs_1/new/constr.xdc
   set_param project.isImplRun true
   link_design -top design_1_wrapper -part xc7a100tcsg324-1
   set_param project.isImplRun false

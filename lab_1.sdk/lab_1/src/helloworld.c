@@ -11,20 +11,16 @@
 #define B_LETTER 0x7FE0
 #define C_LETTER 0x7FB1
 
-void read_number(s16 * n) {
-	scanf("%d", n);
-}
-
-void get_matrix_size(s16 * n) {
+void get_matrix_size(s32 * n) {
 	if (DEBUG_) {
 		*n = 5;
 	} else {
 		xil_printf("Enter the matrix size\n");
-		read_number(n);
+		scanf("%d", n);
 	}
 }
 
-void get_matrix(s16 n, s16 * a) {
+void get_matrix(s32 n, s32 * a) {
 	u8 i;
 	u8 j;
 	if (DEBUG_) {
@@ -37,13 +33,13 @@ void get_matrix(s16 n, s16 * a) {
 		for (i = 0; i < n; ++i) {
 					for (j = 0; j < n; ++j) {
 						xil_printf("Enter matrix[%d][%d]\n", i, j);
-						read_number(&a[i*n + j]);
+						scanf("%d", &a[i*n + j]);
 					}
 				}
 	}
 }
 
-void get_result_matrix(s16 n, const s16 * a, const s16 * b, s16 * c) {
+void get_result_matrix(s32 n, const s32 * a, const s32 * b, s32 * c) {
 	u8 i;
 	u8 j;
 	u8 k;
@@ -57,7 +53,7 @@ void get_result_matrix(s16 n, const s16 * a, const s16 * b, s16 * c) {
 	    }
 }
 
-void print_matrix(s16 n, s16 * a) {
+void print_matrix(s32 n, s32 * a) {
 	u8 i;
 	u8 j;
 	if (DEBUG_) {
@@ -69,7 +65,7 @@ void print_matrix(s16 n, s16 * a) {
 	} else {
 		for (i = 0; i < n; ++i) {
 					for (j = 0; j < n; ++j) {
-						xil_printf("Result matrix[%d][%d] = %d\n", i, j, a[i*n + j]);
+						xil_printf("Result matrix[%d][%d] = %d", i, j, a[i*n + j]);
 					}
 				}
 	}
@@ -79,10 +75,10 @@ int main() {
 
 	init_platform();
 
-	s16 n;
-	s16 matrix_a[100];
-	s16 matrix_b[100];
-	s16 matrix_c[100];
+	s32 n;
+	s32 matrix_a[100];
+	s32 matrix_b[100];
+	s32 matrix_c[100];
 
 	while (1) {
 
@@ -93,10 +89,20 @@ int main() {
 			xil_printf("Matrix size should be in this bounds: [5;10]\n");
 		continue;
 	}
+
+	xil_printf("n = %d\n", n);
+
 	Xil_Out16(ADDR_GPIO_BASE, A_LETTER);
 	if (!DEBUG_)
 		xil_printf("Enter matrix A\n");
 	get_matrix(n, matrix_a);
+
+	xil_printf("n = %d\n", n);
+
+	xil_printf("MATRIX A\n");
+
+	print_matrix(5, matrix_a);
+
 	Xil_Out16(ADDR_GPIO_BASE, B_LETTER);
 	if (!DEBUG_)
 		xil_printf("Enter matrix B\n");

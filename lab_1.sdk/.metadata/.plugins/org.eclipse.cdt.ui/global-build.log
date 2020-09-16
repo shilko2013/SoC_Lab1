@@ -612,3 +612,647 @@ mb-size lab_1_sim.elf  |tee "lab_1_sim.elf.size"
 21:08:56 **** Incremental Build of configuration Debug for project lab_1 ****
 make all 
 make: Nothing to be done for 'all'.
+21:21:10 **** Auto Build of project lab_1_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+21:21:39 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'read_number':
+../src/helloworld.c:15:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+  scanf("%d", n);
+         ~^   ~
+         %hd
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133804	   1672	   3172	 138648	  21d98	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+21:21:49 **** Auto Build of project lab_1_sim_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_4/src"
+make -C microblaze_0/libsrc/gpio_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+21:22:10 **** Auto Build of configuration Debug for project lab_1_sim ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_sim_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'read_number':
+../src/helloworld.c:15:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+  scanf("%d", n);
+         ~^   ~
+         %hd
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../lab_1_sim_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: lab_1_sim.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_sim_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1_sim.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1_sim.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1_sim.elf  |tee "lab_1_sim.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12744	   1308	   3172	  17224	   4348	lab_1_sim.elf
+'Finished building: lab_1_sim.elf.size'
+' '
+00:11:57 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:58:44 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:01:08 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:17:12 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'read_number':
+../src/helloworld.c:15:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+  scanf("%d", n);
+         ~^   ~
+         %hd
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133868	   1672	   3172	 138712	  21dd8	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+15:17:18 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:08 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'read_number':
+../src/helloworld.c:15:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+  scanf("%d", n);
+         ~^   ~
+         %hd
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133876	   1672	   3172	 138720	  21de0	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+15:20:11 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:33:59 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'read_number':
+../src/helloworld.c:15:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+  scanf("%d", n);
+         ~^   ~
+         %hd
+../src/helloworld.c: In function 'get_matrix':
+../src/helloworld.c:40:20: warning: passing argument 1 of 'read_number' makes pointer from integer without a cast [-Wint-conversion]
+       read_number(a[i*n + j]);
+                   ~^~~~~~~~~
+../src/helloworld.c:14:24: note: expected 's16 *' {aka 'short int *'} but argument is of type 's16' {aka 'short int'}
+ void read_number(s16 * n) {
+                  ~~~~~~^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133940	   1672	   3172	 138784	  21e20	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+15:34:04 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:37:17 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'read_number':
+../src/helloworld.c:15:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+  scanf("%d", n);
+         ~^   ~
+         %hd
+../src/helloworld.c: In function 'get_matrix_size':
+../src/helloworld.c:23:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+   scanf("%d", n);
+          ~^   ~
+          %hd
+../src/helloworld.c: In function 'get_matrix':
+../src/helloworld.c:41:15: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+       scanf("%d", a[i*n + j]);
+              ~^   ~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133884	   1672	   3172	 138728	  21de8	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+15:37:23 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:41:56 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'read_number':
+../src/helloworld.c:15:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+  scanf("%d", n);
+         ~^   ~
+         %hd
+../src/helloworld.c: In function 'get_matrix_size':
+../src/helloworld.c:23:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+   scanf("%d", n);
+          ~^   ~
+          %hd
+../src/helloworld.c: In function 'get_matrix':
+../src/helloworld.c:41:15: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+       scanf("%d", &a[i*n + j]);
+              ~^   ~~~~~~~~~~~
+              %hd
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133876	   1672	   3172	 138720	  21de0	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+15:42:01 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:44:50 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'read_number':
+../src/helloworld.c:15:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+  scanf("%d", n);
+         ~^   ~
+         %hd
+../src/helloworld.c: In function 'get_matrix_size':
+../src/helloworld.c:23:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+   scanf("%d", n);
+          ~^   ~
+          %hd
+../src/helloworld.c: In function 'get_matrix':
+../src/helloworld.c:41:15: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's16 *' {aka 'short int *'} [-Wformat=]
+       scanf("%d", &a[i*n + j]);
+              ~^   ~~~~~~~~~~~
+              %hd
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:92:18: warning: passing argument 1 of 'get_matrix_size' from incompatible pointer type [-Wincompatible-pointer-types]
+  get_matrix_size(&n);
+                  ^~
+../src/helloworld.c:18:28: note: expected 's16 *' {aka 'short int *'} but argument is of type 's32 *' {aka 'long int *'}
+ void get_matrix_size(s16 * n) {
+                      ~~~~~~^
+../src/helloworld.c:104:16: warning: passing argument 2 of 'get_matrix' from incompatible pointer type [-Wincompatible-pointer-types]
+  get_matrix(n, matrix_a);
+                ^~~~~~~~
+../src/helloworld.c:28:30: note: expected 's16 *' {aka 'short int *'} but argument is of type 's32 *' {aka 'long int *'}
+ void get_matrix(s16 n, s16 * a) {
+                        ~~~~~~^
+../src/helloworld.c:110:18: warning: passing argument 2 of 'print_matrix' from incompatible pointer type [-Wincompatible-pointer-types]
+  print_matrix(5, matrix_a);
+                  ^~~~~~~~
+../src/helloworld.c:62:32: note: expected 's16 *' {aka 'short int *'} but argument is of type 's32 *' {aka 'long int *'}
+ void print_matrix(s16 n, s16 * a) {
+                          ~~~~~~^
+../src/helloworld.c:115:16: warning: passing argument 2 of 'get_matrix' from incompatible pointer type [-Wincompatible-pointer-types]
+  get_matrix(n, matrix_b);
+                ^~~~~~~~
+../src/helloworld.c:28:30: note: expected 's16 *' {aka 'short int *'} but argument is of type 's32 *' {aka 'long int *'}
+ void get_matrix(s16 n, s16 * a) {
+                        ~~~~~~^
+../src/helloworld.c:117:23: warning: passing argument 2 of 'get_result_matrix' from incompatible pointer type [-Wincompatible-pointer-types]
+  get_result_matrix(n, matrix_a, matrix_b, matrix_c);
+                       ^~~~~~~~
+../src/helloworld.c:48:43: note: expected 'const s16 *' {aka 'const short int *'} but argument is of type 's32 *' {aka 'long int *'}
+ void get_result_matrix(s16 n, const s16 * a, const s16 * b, s16 * c) {
+                               ~~~~~~~~~~~~^
+../src/helloworld.c:117:33: warning: passing argument 3 of 'get_result_matrix' from incompatible pointer type [-Wincompatible-pointer-types]
+  get_result_matrix(n, matrix_a, matrix_b, matrix_c);
+                                 ^~~~~~~~
+../src/helloworld.c:48:58: note: expected 'const s16 *' {aka 'const short int *'} but argument is of type 's32 *' {aka 'long int *'}
+ void get_result_matrix(s16 n, const s16 * a, const s16 * b, s16 * c) {
+                                              ~~~~~~~~~~~~^
+../src/helloworld.c:117:43: warning: passing argument 4 of 'get_result_matrix' from incompatible pointer type [-Wincompatible-pointer-types]
+  get_result_matrix(n, matrix_a, matrix_b, matrix_c);
+                                           ^~~~~~~~
+../src/helloworld.c:48:67: note: expected 's16 *' {aka 'short int *'} but argument is of type 's32 *' {aka 'long int *'}
+ void get_result_matrix(s16 n, const s16 * a, const s16 * b, s16 * c) {
+                                                             ~~~~~~^
+../src/helloworld.c:119:18: warning: passing argument 2 of 'print_matrix' from incompatible pointer type [-Wincompatible-pointer-types]
+  print_matrix(n, matrix_c);
+                  ^~~~~~~~
+../src/helloworld.c:62:32: note: expected 's16 *' {aka 'short int *'} but argument is of type 's32 *' {aka 'long int *'}
+ void print_matrix(s16 n, s16 * a) {
+                          ~~~~~~^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133860	   1672	   3172	 138704	  21dd0	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+15:44:55 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:46:08 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:03 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'read_number':
+../src/helloworld.c:15:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+  scanf("%d", n);
+         ~^   ~
+         %ld
+../src/helloworld.c: In function 'get_matrix_size':
+../src/helloworld.c:23:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+   scanf("%d", n);
+          ~^   ~
+          %ld
+../src/helloworld.c: In function 'get_matrix':
+../src/helloworld.c:41:15: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+       scanf("%d", &a[i*n + j]);
+              ~^   ~~~~~~~~~~~
+              %ld
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133720	   1672	   3168	 138560	  21d40	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+15:50:19 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'read_number':
+../src/helloworld.c:15:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+  scanf("%d", n);
+         ~^   ~
+         %ld
+../src/helloworld.c: In function 'get_matrix_size':
+../src/helloworld.c:23:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+   scanf("%d", n);
+          ~^   ~
+          %ld
+../src/helloworld.c: In function 'get_matrix':
+../src/helloworld.c:41:15: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+       scanf("%d", &a[i*n + j]);
+              ~^   ~~~~~~~~~~~
+              %ld
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133720	   1672	   3168	 138560	  21d40	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+15:50:52 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:51:03 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:54:16 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:55:12 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'get_matrix_size':
+../src/helloworld.c:19:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+   scanf("%d", n);
+          ~^   ~
+          %ld
+../src/helloworld.c: In function 'get_matrix':
+../src/helloworld.c:36:15: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+       scanf("%d", &a[i*n + j]);
+              ~^   ~~~~~~~~~~~
+              %ld
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133720	   1672	   3168	 138560	  21d40	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+15:55:18 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:59:29 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'get_matrix_size':
+../src/helloworld.c:19:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+   scanf("%d", n);
+          ~^   ~
+          %ld
+../src/helloworld.c: In function 'get_matrix':
+../src/helloworld.c:36:15: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+       scanf("%d", &a[i*n + j]);
+              ~^   ~~~~~~~~~~~
+              %ld
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133764	   1672	   3172	 138608	  21d70	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+16:01:17 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:02:27 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'get_matrix_size':
+../src/helloworld.c:19:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+   scanf("%d", n);
+          ~^   ~
+          %ld
+../src/helloworld.c: In function 'get_matrix':
+../src/helloworld.c:36:15: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+       scanf("%d", &a[i*n + j]);
+              ~^   ~~~~~~~~~~~
+              %ld
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133740	   1672	   3172	 138584	  21d58	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+16:02:32 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:03:11 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:03:58 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:05:04 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:06:43 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'get_matrix_size':
+../src/helloworld.c:19:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+   scanf("%d", n);
+          ~^   ~
+          %ld
+../src/helloworld.c: In function 'get_matrix':
+../src/helloworld.c:36:15: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+       scanf("%d", &a[i*n + j]);
+              ~^   ~~~~~~~~~~~
+              %ld
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133740	   1672	   3172	 138584	  21d58	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+16:06:48 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:09:11 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:09:52 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:11:00 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'get_matrix_size':
+../src/helloworld.c:19:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+   scanf("%d", n);
+          ~^   ~
+          %ld
+../src/helloworld.c: In function 'get_matrix':
+../src/helloworld.c:36:15: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+       scanf("%d", &a[i*n + j]);
+              ~^   ~~~~~~~~~~~
+              %ld
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133720	   1672	   3168	 138560	  21d40	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '
+16:11:05 **** Incremental Build of configuration Debug for project lab_1 ****
+make all 
+make: Nothing to be done for 'all'.
+16:12:01 **** Auto Build of configuration Debug for project lab_1 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../lab_1_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'get_matrix_size':
+../src/helloworld.c:19:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+   scanf("%d", n);
+          ~^   ~
+          %ld
+../src/helloworld.c: In function 'get_matrix':
+../src/helloworld.c:36:15: warning: format '%d' expects argument of type 'int *', but argument 2 has type 's32 *' {aka 'long int *'} [-Wformat=]
+       scanf("%d", &a[i*n + j]);
+              ~^   ~~~~~~~~~~~
+              %ld
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: lab_1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab_1_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "lab_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab_1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size lab_1.elf  |tee "lab_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133720	   1672	   3168	 138560	  21d40	lab_1.elf
+'Finished building: lab_1.elf.size'
+' '

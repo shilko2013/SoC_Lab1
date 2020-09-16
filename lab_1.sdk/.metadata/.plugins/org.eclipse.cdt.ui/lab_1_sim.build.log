@@ -1,4 +1,4 @@
-18:39:46 **** Auto Build of configuration Debug for project lab_1_sim ****
+21:22:10 **** Auto Build of configuration Debug for project lab_1_sim ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -27,5 +27,5 @@ mb-size lab_1_sim.elf  |tee "lab_1_sim.elf.size"
 'Finished building: lab_1_sim.elf.size'
 ' '
 
-18:39:46 Build Finished (took 858ms)
+21:22:18 Build Finished (took 7s.714ms)
 
