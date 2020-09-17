@@ -14132,3 +14132,1819 @@ java.io.FileNotFoundException: E:\University\4course\SoC\Labs\1\V2\SoC_Lab1\lab_
 	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:456)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2020-09-17 00:19:14.845 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk
+
+!ENTRY org.eclipse.ui 2 0 2020-09-17 00:19:24.814
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-09-17 00:19:24.814
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2020-09-17 00:19:29.128
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-09-17 00:19:29.128
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 00:19:56.676
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 00:19:56.677
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 00:19:56.752
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 00:19:56.755
+!MESSAGE XSCT Command: [setws E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 00:20:26.047
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 00:20:26.050
+!MESSAGE XSCT command with result: [setws E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk], Result: [null, ]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 00:20:26.134
+!MESSAGE XSCT Command: [::hsi::utils::openhw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 00:20:37.136
+!MESSAGE XSCT command with result: [::hsi::utils::openhw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 00:20:37.137
+!MESSAGE XSCT Command: [::hsi::utils::openhw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_1/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 00:20:37.766
+!MESSAGE XSCT command with result: [::hsi::utils::openhw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_1/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.core.resources 4 568 2020-09-17 00:31:57.581
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: E:\University\4course\SoC\Labs\1\V2\SoC_Lab1\lab_1.sdk\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (Системе не удается найти указанный путь)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.ide 4 4 2020-09-17 01:01:17.914
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2020-09-17 01:01:17.953
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2020-09-17 01:01:17.953
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: E:\University\4course\SoC\Labs\1\V2\SoC_Lab1\lab_1.sdk\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers (Системе не удается найти указанный путь)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1657)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1739)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1199)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:456)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2020-09-17 10:10:28.128 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk
+
+!ENTRY org.eclipse.ui 2 0 2020-09-17 10:10:34.730
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-09-17 10:10:34.730
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2020-09-17 10:10:42.613
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-09-17 10:10:42.613
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:11:19.797
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:11:19.798
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:11:31.214
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:11:31.216
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:11:31.221
+!MESSAGE XSCT Command: [setws E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk], Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:11:31.252
+!MESSAGE XSCT command with result: [setws E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk], Result: [null, ]. Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:11:31.332
+!MESSAGE XSCT Command: [::hsi::utils::openhw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:11:40.744
+!MESSAGE XSCT command with result: [::hsi::utils::openhw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:11:40.745
+!MESSAGE XSCT Command: [::hsi::utils::openhw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_1/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:11:40.862
+!MESSAGE XSCT command with result: [::hsi::utils::openhw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_1/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:04.831
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:04.836
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Mon Sep 14 11:33:59 2020",
+"vivado_version": "2019.1",
+"part": "xc7a100tcsg324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:04.839
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:04.852
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_interconnect_0": {"hier_name": "axi_interconnect_0",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:06.281
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:06.284
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:06.285
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_PROFILE_SIZE], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:06.296
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_PROFILE_SIZE], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:06.296
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:06.302
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-09-17 10:12:16.256
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.261
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.267
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {}]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.268
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.296
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.300
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.306
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0003FFFF",
+"size": "262144",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.307
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.312
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.324
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.331
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {}]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.332
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.335
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.336
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.338
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, microblaze_0]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.339
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.353
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.354
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.368
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:16.370
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:19.838
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:19.850
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.702
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292709610A]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.710
+!MESSAGE XSCT Command: [version -server], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.716
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.718
+!MESSAGE XSCT Command: [version], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.723
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.736
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.783
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292709610A]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.785
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.833
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.835
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.855
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292709610A]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.856
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.903
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.906
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.926
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292709610A]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.928
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.970
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.970
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.980
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292709610A]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:21.980
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:22.011
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:22.012
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292709610A" && level == 0}], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:22.047
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292709610A" && level == 0}], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:22.048
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:22.050
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:22.055
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:22.059
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:22.089
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:22.099
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:22.100
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:22.129
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:22.131
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:23.041
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:23.041
+!MESSAGE XSCT Command: [fpga -file E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.runs/impl_1/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:26.251
+!MESSAGE XSCT command with result: [fpga -file E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.runs/impl_1/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:26.456
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:26.475
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:26.477
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:27.293
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:27.293
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:27.401
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:27.405
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:30.409
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:30.410
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:31.216
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:31.218
+!MESSAGE XSCT Command: [dow E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:32.065
+!MESSAGE XSCT command with result: [dow E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:32.557
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:32.634
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:32.634
+!MESSAGE XSCT Command: [con], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:12:32.642
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:25.047
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-70
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:25.075
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-70
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-09-17 10:14:26.069
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.073
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.112
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.116
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.181
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.183
+!MESSAGE XSCT Command: [version -server], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.189
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.191
+!MESSAGE XSCT Command: [version], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.194
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.196
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.217
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.219
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.274
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.275
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.293
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.294
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.336
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.337
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.348
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.348
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.378
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.379
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.390
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.390
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.420
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.421
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292709610A" && level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.447
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292709610A" && level == 0}], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.448
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.449
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.479
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.488
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.489
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.518
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.518
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.554
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:26.555
+!MESSAGE XSCT Command: [fpga -file E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.runs/impl_1/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:28.829
+!MESSAGE XSCT command with result: [fpga -file E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.runs/impl_1/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:28.964
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:28.982
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:28.983
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:29.067
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:29.068
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:29.173
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:29.174
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:32.178
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:32.182
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:32.321
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:32.322
+!MESSAGE XSCT Command: [dow E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:33.144
+!MESSAGE XSCT command with result: [dow E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:33.349
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:33.439
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:33.440
+!MESSAGE XSCT Command: [con], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:14:33.446
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:02.407
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-107
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:02.411
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-107
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-09-17 10:15:03.409
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.412
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.443
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.445
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.484
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.484
+!MESSAGE XSCT Command: [version -server], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.487
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.488
+!MESSAGE XSCT Command: [version], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.490
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.491
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.509
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.510
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.580
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.581
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.597
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.598
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.655
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.656
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.665
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.665
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.693
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.694
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.705
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.706
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.742
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.743
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292709610A" && level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.771
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292709610A" && level == 0}], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.771
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.773
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.800
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.811
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.811
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.839
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.840
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.881
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:03.882
+!MESSAGE XSCT Command: [fpga -file E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.runs/impl_1/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:06.221
+!MESSAGE XSCT command with result: [fpga -file E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.runs/impl_1/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:06.382
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:06.414
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:06.417
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:06.474
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:06.475
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:06.582
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:06.583
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:09.587
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:09.590
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:09.712
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:09.713
+!MESSAGE XSCT Command: [dow E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:10.528
+!MESSAGE XSCT command with result: [dow E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:10.766
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:10.871
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:10.872
+!MESSAGE XSCT Command: [con], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:15:10.878
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:21.222
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-143
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:21.226
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-143
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-09-17 10:16:22.222
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.229
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.266
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.268
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.316
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.317
+!MESSAGE XSCT Command: [version -server], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.320
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.321
+!MESSAGE XSCT Command: [version], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.322
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.323
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.352
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.353
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.421
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.422
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.442
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.444
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.509
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.510
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.529
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.529
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.589
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.590
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.610
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.611
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.671
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.672
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292709610A" && level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.726
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292709610A" && level == 0}], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.727
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.730
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.758
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.768
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.768
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.796
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.796
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.834
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:22.834
+!MESSAGE XSCT Command: [fpga -file E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.runs/impl_1/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:25.072
+!MESSAGE XSCT command with result: [fpga -file E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.runs/impl_1/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:25.187
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:25.203
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:25.204
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:25.284
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:25.285
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:25.390
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:25.391
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:28.396
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:28.399
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:28.572
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:28.574
+!MESSAGE XSCT Command: [dow E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:29.417
+!MESSAGE XSCT command with result: [dow E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:29.583
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:29.674
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:29.675
+!MESSAGE XSCT Command: [con], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:16:29.681
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-1
+
+!ENTRY org.eclipse.core.resources 4 568 2020-09-17 10:17:16.316
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: E:\University\4course\SoC\Labs\1\V2\SoC_Lab1\lab_1.sdk\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (Системе не удается найти указанный путь)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:06.124
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-198
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:06.138
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-198
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-09-17 10:53:07.126
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.128
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.141
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#5]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.142
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.164
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.165
+!MESSAGE XSCT Command: [version -server], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.167
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.167
+!MESSAGE XSCT Command: [version], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.169
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.169
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.178
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.179
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.224
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.224
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.240
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.240
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.283
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.283
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.297
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.298
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.325
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.325
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.335
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.335
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.369
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.369
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292709610A" && level == 0}], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.399
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292709610A" && level == 0}], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.399
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.401
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.422
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.431
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292709610A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.431
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.467
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.468
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.508
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:07.509
+!MESSAGE XSCT Command: [fpga -file E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.runs/impl_1/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:09.867
+!MESSAGE XSCT command with result: [fpga -file E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.runs/impl_1/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:09.992
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:10.013
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:10.014
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:10.085
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:10.086
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:10.191
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:10.192
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:13.196
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:13.197
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:13.367
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:13.369
+!MESSAGE XSCT Command: [dow E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:14.138
+!MESSAGE XSCT command with result: [dow E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1/Debug/lab_1.elf], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:14.343
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:14.442
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292709610A"} -index 0], Result: [null, ]. Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:14.443
+!MESSAGE XSCT Command: [con], Thread: Worker-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 10:53:14.449
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-14
+
+!ENTRY org.eclipse.core.resources 4 568 2020-09-17 10:57:21.950
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: E:\University\4course\SoC\Labs\1\V2\SoC_Lab1\lab_1.sdk\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (Системе не удается найти указанный путь)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.188
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.310
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.311
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.317
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.318
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.332
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_3": {"name": "freertos10_xilinx",
+"version": "1.3",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_3",
+},
+"standalone_v7_0": {"name": "standalone",
+"version": "7.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/lib/bsp/standalone_v7_0",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.351
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.355
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.356
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.365
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.366
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.369
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, axi_gpio_0 axi_uartlite_0 microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.372
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.396
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.3",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.3",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.9",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.397
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.472
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_gpio_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_interconnect_0": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "11.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_v2_9": {"name": "cpu",
+"version": "2.9",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_9",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_3": {"name": "bram",
+"version": "4.3",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_3": {"name": "bram",
+"version": "4.3",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.607
+!MESSAGE XSCT Command: [::hsi::utils::closesw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:03:17.610
+!MESSAGE XSCT command with result: [::hsi::utils::closesw E:/University/4course/SoC/Labs/1/V2/SoC_Lab1/lab_1.sdk/lab_1_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:15:28.554
+!MESSAGE XSCT Command: [disconnect tcfchan#5], Thread: Thread-254
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-17 11:15:28.590
+!MESSAGE XSCT command with result: [disconnect tcfchan#5], Result: [null, ]. Thread: Thread-254
+
+!ENTRY org.eclipse.ui.ide 4 4 2020-09-17 11:15:30.862
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2020-09-17 11:15:30.863
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2020-09-17 11:15:30.863
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: E:\University\4course\SoC\Labs\1\V2\SoC_Lab1\lab_1.sdk\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers (Системе не удается найти указанный путь)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1657)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1739)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1199)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$4.run(IDEWorkbenchAdvisor.java:456)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
